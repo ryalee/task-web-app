@@ -1,9 +1,9 @@
 {
+  "homepage": "https://ryalee.github.io/task-web-app",
   "name": "task-web-app",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://ryalee.github.io/task-web-app",
 
   "scripts": {
     "dev": "vite",
@@ -11,7 +11,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d dist"
 
   },
   "dependencies": {
